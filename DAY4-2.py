@@ -1,0 +1,6 @@
+im=open('images.jpg','rb')
+img=im.read()
+im.close()
+ig=open('re.jpg','wb')
+ig.write(img)
+ig.close()
